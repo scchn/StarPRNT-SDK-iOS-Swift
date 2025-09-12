@@ -1,3 +1,16 @@
+# Ver 5.20.2 (2025/09/10)
+
+## StarIO
+- SMFileLoggerクラス: ログ出力処理の軽微な修正
+
+## StarIOExtension
+- StarIoExtManagerクラス: 通信不安定な環境でのバーコードリーダー状態取得の内部処理を改善
+
+StarIO (Ver. 2.12.2)<br>
+StarIO_Extension (Ver. 1.19.2)<br>
+stariodevicesetting (Ver. 1.0.2)
+
+
 # Ver 5.20.1 (2025/07/14)
 
 ## StarIO
