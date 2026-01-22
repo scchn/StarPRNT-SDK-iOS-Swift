@@ -20,7 +20,8 @@ let package = Package(
             name: "StarPRNTSDK",
             dependencies: [
                 "StarIO",
-                "StarIO_Extension"
+                "StarIO_Extension",
+                "StarIODeviceSetting"
             ],
             path: "Sources/StarPRNTSDK",
             publicHeadersPath: "."
@@ -32,6 +33,10 @@ let package = Package(
         .binaryTarget(
             name: "StarIO_Extension",
             path: "software/libs/StarIO_Extension.xcframework"
-        )
+        ),
+        .binaryTarget(
+            name: "StarIODeviceSetting",
+            path: "software/libs/StarIODeviceSetting.xcframework"
+        ),
     ]
 )
